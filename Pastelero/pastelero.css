@@ -1,7 +1,9 @@
 *{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+body{
+    background-image: linear-gradient(to bottom, #ffecd2 0%, #fcb69f 100%);
+}
 .Encabezado{
     display: flex;
     justify-content: space-between;
@@ -21,4 +23,19 @@
     font-size: 30px;
     word-spacing: 10px;
     padding-top: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Logo{
+    text-align: center;
+    margin: 0;
+}
+h3{
+    font-size: 25px;
+}
+p{
+    text-align: center;
+    font-size: 35px;
 }
