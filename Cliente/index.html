@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/imagenes/favicon.png">
+    <link rel="stylesheet" href="/Cliente/styles.css">
+    <title>CakeFactory</title>
+</head>
+
+<body>
+    <header>
+        <div class="head" id="head">
+            <h1 id="nombre" class="nombre"> <a href="index.html"> Pasteleria CakeFactory</a></h1>
+            <div id="nav" class="nav">
+                <nav>
+                    <a href="#slogan"> Sabores </a>
+                    <a href="#Galeria"> Galeria </a>
+                    <a href="#pedido">Pedidos!</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="Logo" id="Logo">
+        <img src="/imagenes/Cakefactorya.png" alt="PasteleriaCakeFactory" />
+    </div>
+    <hr />
+    <h2 id="slogan" class="slogan">Del horno a tu hogar</h2>
+    <div class="intro">
+        <p class="intro" id="intro">
+            Hazle caso a tu corazón, la emoción de probar algo delicioso te espera.
+        </p>
+    </div>
+
+    <div id="menus" class="menus">
+        <div class="sabores" id="sabores">
+            <h2 id="menuT" class="menuT">Nuestro menu de sabores son</h2>
+            <div>
+                <ul>
+                    <li>Limon-------------------- 20$usd</li>
+                    <li>Zanahoria---------------- 20$usd</li>
+                    <li>Chocolate---------------- 20$usd</li>
+                    <li>Fresa---------------------- 20$usd</li>
+                    <li>Coco---------------------- 20$usd</li>
+                </ul>
+            </div>
+        </div>
+        <div id="adornos" class="adornos">
+            <h2 id="menuA" class="menuA">¿Con que quieres adornarlo?</h2>
+            <div>
+                <ul>
+                    <li>Coberturas de chocolate------------ 20$usd</li>
+                    <li>Fondant------------------------------- 20$usd</li>
+                    <li>Salsas de caramelo------------------ 20$usd</li>
+                    <li>Betunes o baños de mantequilla--- 20$usd</li>
+                    <li>Escarchados o glaseados----------- 20$usd</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="Galeria" id="Galeria">
+        <h2>Galeria de nuestros productos!</h2>
+        <img src="https://images.pexels.com/photos/5140055/pexels-photo-5140055.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+            alt="otra foto" width="45%" height="400px">
+        <img src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Pastelito" width="45%" height="400px" />
+        <img src="https://images.pexels.com/photos/264939/pexels-photo-264939.jpeg?auto=compress&cs=tinysrgb&w=400"
+            alt="limon" width="45%" height="400px">
+        <img src="/imagenes/cake1.jpg" alt="Galeriapasteles" width="45%" height="400px">
+        <img src="/imagenes/cheesecake-g4f0a93760_1280.jpg" alt="Galeria2" width="45%" height="400px">
+        <img src="/imagenes/happy-birthday-g25383f6ac_1280.jpg" alt="Galeria3" width="45%" height="400px">
+    </div>
+
+    <!-- Formularios -->
+
+    <form id="pedido" class="pedido">
+        <h2>Realiza tu pedido</h2>
+        <label for="Nombre">Nombre:</label>
+        <input type="text" id="Nombre" name="Nombre" /> <br />
+        <br />
+        <label for="Apellido">Apellido:</label>
+        <input type="text" id="Apellido" name="Apellido" /> <br /><br />
+        <label for="Correo">Correo:</label>
+        <input type="email" id="Correo" name="Correo" /> <br /><br />
+        <label for="Telefono">Teléfono:</label>
+        <input type="tel" id="Telefono" name="Telefono" maxlength="10"><br><br>
+
+
+        <h3>¡Combina tus sabores favoritos!</h3>
+        <!--puedes seleccionar todas las casillas si lo deseas, checkbox multiseleccion-->
+        <input type="checkbox" id="sabores1" name="sabores1" value="Limon" />
+        <label for="sabores1">Limon</label> <br />
+        <input type="checkbox" id="sabores2" name="sabores2" value="Zanahoria" />
+        <label for="sabores2">Zanahoria</label><br />
+        <input type="checkbox" id="sabores3" name="sabores3" value="Chocolate" />
+        <label for="sabores3">Chocolate</label><br />
+        <input type="checkbox" id="sabores4" name="sabores4" value="Vainilla" />
+        <label for="sabores4">Vainilla</label><br />
+        <input type="checkbox" id="sabores5" name="sabores5" value="Fresa" />
+        <label for="sabores5">Fresa</label><br />
+        <input type="checkbox" id="sabores6" name="sabores6" value="Coco" />
+        <label for="sabores6">Coco</label><br />
+
+        <h3>¿Que adornos te dieron ganas?</h3>
+        <input type="checkbox" id="Adornos1" name="Adorno1" value="Cobertura de Chocolate" />
+        <label for="Adornos1">Cobertura de Chocolate</label> <br />
+        <input type="checkbox" id="Adornos2" name="Adorno2" value="Fondant" />
+        <label for="Adornos2">Fondant</label> <br />
+        <input type="checkbox" id="Adornos3" name="Adorno3" value="Salsas de caramelo" />
+        <label for="Adornos3">Salsas de caramelo</label> <br />
+        <input type="checkbox" id="Adornos4" name="Adorno4" value="Betunes o baños de mantequilla" />
+        <label for="Adornos4">Betunes o baños de mantequilla</label> <br />
+        <input type="checkbox" id="Adornos5" name="Adorno5" value="Escarchados o Glaseados" />
+        <label for="Adornos5">Escarchados o Glaseados</label> <br /><br />
+        <input id="Enviar" type="submit" value="Enviar pedido" />
+        <input type="reset" />
+    </form>
+    <hr id="barra2" />
+    <footer>
+        <div class="footer-general" id="footer-general">
+            <div id="informacion" class="informacion">
+                <h4 id="copyr"> © CokeFactory</h4>
+                <p id="CorreoOficial" class="CorreoOficial">CokeFactory@pasteleria.com</p>
+                <dl>
+                    <dt><b>Dirección</b></dt>
+                    <dd>Cra ## calle ## con esquina</dd>
+                    <dt><b> Telefono</b></dt>
+                    <dd>555-555-55-55</dd>
+                </dl>
+            </div>
+            <div id="hora-atencion" class="hora-atencion">
+                <h5>Horarios de atencion</h5>
+
+                <ul id="horarios" class="horarios">
+                    <li>Lunes a viernes: 8:00AM - 12:00PM y 2:00PM 6:00PM</li>
+                    <li>Sabados: 8:00AM - 2:00PM</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+<!--
+    El cliente de la pastelería necesita ver los diferentes sabores de pasteles, así como los precios de cada uno.
+El cliente de la pastelería necesita ver los diferentes adornos con los que se puede decorar el pastel y los precios de cada uno.
+El cliente de la pastelería tendrá la posibilidad de combinar sabores dependiendo de sus preferencias.
+El cliente de la pastelería tendrá la posibilidad de combinar adornos dependiendo de sus preferencias.
+El cliente de la pastelería necesita poner en un formulario su pedido.
+El formulario debe de contener los datos de contacto del cliente que son Nombre, Teléfono, Correo Electrónico, Descripción general del pastel y la selección de sabores y adornos.
+El pastelero necesita tener la información de la cantidad de sabores que le quedan para hacer los pasteles.
+El pastelero necesita tener la información de la cantidad de adornos que le quedan para hacer los pasteles.
+El pastelero necesita una tabla donde aparezcan los pedidos que se han realizado con los datos del formulario.
+La página debe tener información de la pastelería que es Dirección, Teléfono y horarios de atención.
+-->
